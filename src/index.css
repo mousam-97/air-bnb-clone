@@ -1,13 +1,107 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: beige;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.gray {
+  color: lightgray;
+}
+
+.logo {
+  margin: 20px;
+  width: 50px;
+}
+
+.logo__image {
+  width: 100px;
+  /* height: 35px; */
+}
+
+.main {
+  /* height: 100vh; */
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.top__banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  max-width: 700px;
+  align-self: center;
+}
+
+.card__list {
+  display: flex;
+  flex-wrap: nowrap;
+  /* gap: 20px; */
+  overflow-x: auto;
+
+  white-space: nowrap;
+  
+}
+
+.card {
+  width: 175px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  /* padding: 20px;
+  margin: 20px; */
+  align-items: center;
+  font-size: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card__star {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+.card__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  font-size: 12px;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
 }
