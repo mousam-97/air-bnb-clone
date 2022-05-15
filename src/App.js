@@ -25,6 +25,7 @@ function App() {
       <div className="card__list">
         {cards}
       </div>
+      {/* Another comment */}
 
 
 
