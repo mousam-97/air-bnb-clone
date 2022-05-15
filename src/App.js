@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Main />
+      {/* Hello world man */}
       <div className="card__list">
         {cards}
       </div>
