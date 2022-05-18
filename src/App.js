@@ -9,6 +9,7 @@ import data from "./data";
 
 // A new feature
 
+// Second feature
 
 function App() {
   const cards = data.map(item => {
