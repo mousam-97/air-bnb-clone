@@ -7,6 +7,7 @@ import data from "./data";
 
 // hello world
 
+// A new feature
 
 
 function App() {
